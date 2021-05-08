@@ -4,3 +4,4 @@ Contents
 - Global styles
 - Routes
 - Stack navigation
+- axios
