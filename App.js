@@ -1,21 +1,21 @@
-import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+
+import { StatusBar } from "expo-status-bar";
+import { AppLoading } from "expo";
+// import {useFonts, } from "@expo-google-fonts/";
+
+import Routes from "./src/pages/Home";
 
 export default function App() {
+  // const [fontsLoaded] = useFonts({});
+
   return (
-    <View style={styles.container}>
-      <Text>Hello World</Text>
+    // return !fontsLoaded ? (
+    //   <AppLoading />
+    // ) : (
+    <>
       <StatusBar style="auto" />
-    </View>
+      <Routes />
+    </>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
