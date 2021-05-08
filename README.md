@@ -4,4 +4,5 @@ Contents
 - Global styles
 - Routes
 - Stack navigation
-- axios
+- Axios
+- Async storage
