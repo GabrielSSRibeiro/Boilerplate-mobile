@@ -4,7 +4,7 @@ import { StatusBar } from "expo-status-bar";
 import { AppLoading } from "expo";
 // import {useFonts, } from "@expo-google-fonts/";
 
-import Routes from "./src/pages/Home";
+import AppStack from "./src/routes/appStack";
 
 export default function App() {
   // const [fontsLoaded] = useFonts({});
@@ -15,7 +15,7 @@ export default function App() {
     // ) : (
     <>
       <StatusBar style="auto" />
-      <Routes />
+      <AppStack />
     </>
   );
 }
