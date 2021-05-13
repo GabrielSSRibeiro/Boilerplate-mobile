@@ -1,7 +1,7 @@
 import React from "react";
 
 import { StatusBar } from "expo-status-bar";
-import { AppLoading } from "expo";
+import AppLoading from "expo-app-loading";
 // import {useFonts, } from "@expo-google-fonts/";
 
 import AppStack from "./src/routes/appStack";
